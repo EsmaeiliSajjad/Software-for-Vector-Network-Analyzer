@@ -18,12 +18,12 @@ https://user-images.githubusercontent.com/108043716/177027855-694a34ad-095b-42a3
 Fig. 1: Testing developed software for automation of SIGLENT Vector Network Analyzer.
 <a name="2"></a>
 # LabView Code
-LabView software is employed here to write the code. Before running the code, you should introduce the device to the computer and connect it using Measurment and Automation Explorer (NI-MAX) software. You also have to configurate the TCP/IP protocol for data communication between the PC and the instrument. The following figures show how to connect the instrument to the PC through NI-MAX softwre and also a part of the developed code for the software.
+LabView software is employed here to write the code. Before running the code, you should introduce the device to the computer and connect it using Measurment and Automation Explorer (NI-MAX) software. You also have to configurate the TCP/IP protocol for data communication between the PC and the instrument. The following figures show how to connect the instrument to the PC through NI-MAX softwre and also a part of the developed code for the software. 
 
 ![Screenshot 2022-07-03 001542](https://user-images.githubusercontent.com/108043716/177027512-f4d8cf2d-6325-4513-91e3-ba1b8de7cca6.png)
+Fig. 2: LabView code for the software. 
 
-Fig. 2: LabView code for the software.
-<img src="https://user-images.githubusercontent.com/108043716/177028184-68b5754b-b804-4649-b808-9075ad1251cc.png" width="300" />
+<img src="https://user-images.githubusercontent.com/108043716/177028184-68b5754b-b804-4649-b808-9075ad1251cc.png" width="600" />
 
 Fig. 3: Defining the instrument to computer. 
 

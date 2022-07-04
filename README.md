@@ -1,5 +1,6 @@
 # Software-for-Vector-Network-Analyzer
-In this project, an automation software is designed to change the setting and configuration of a Vector Network Analyzer and save the data for furthur data analysis after measurement. The data can be stored in any database, such as SQL software, since a large number of data will be generated for a single measurement. The data should be classified based on the measuring technique, frequency range, output type, Meas, and format, type of data. Every measurement can generate more than 300 data points.
+In this project, automation software is designed to change the setting and configuration of a Vector Network Analyzer and save the data for further data analysis after measurement. The data can be stored in any database, such as SQL software since a large number of data will be generated for a single measurement. The data should be classified based on the measuring technique, frequency range, output type, Meas, and format, type of data. Every measurement can generate more than 300 data points.
+
 # Table of Centent
 1. [Description](#1)
 2. [LabView Code](#2) 
@@ -18,7 +19,7 @@ https://user-images.githubusercontent.com/108043716/177027855-694a34ad-095b-42a3
 Fig. 1: Testing developed software for automation of SIGLENT Vector Network Analyzer.
 <a name="2"></a>
 # LabView Code
-LabView computer coding software is employed here to write the code. Before running the code, we should introduce the device to the computer and connect it using Measurment and Automation Explorer (NI-MAX) software. We also have to configure the TCP/IP protocol for data communication between the PC and the instrument. The following figures show how to connect the instrument to the PC through NI-MAX softwre and also a part of the developed code.
+LabView computer coding software is employed here to write the code. Before running the code, we should introduce the device to the computer and connect it using Measurement and Automation Explorer (NI-MAX) software. We also have to configure the TCP/IP protocol for data communication between the PC and the instrument. The following figures show how to connect the instrument to the PC through NI-MAX software and also a part of the developed code.
 
 ![Screenshot 2022-07-03 001542](https://user-images.githubusercontent.com/108043716/177027512-f4d8cf2d-6325-4513-91e3-ba1b8de7cca6.png)
 Fig. 2: LabView code for the automation software including control, monitor, and store data in formatted data file. 
@@ -27,7 +28,7 @@ Fig. 2: LabView code for the automation software including control, monitor, and
 
 Fig. 3: Defining the instrument to computer in NI-MAX software. 
 
-In order to communicate between the PC and instrument, you should be familiar with buffer read and write concept. In addition to this, the proper command should be specified to be sent to the instrument. Some of these commends do not return any value; however, additional string functions should be added to the code to properly encode the return buffer.
+In order to communicate between the PC and instrument, you should be familiar with the buffer read and write concept. In addition to this, the proper command should be specified to be sent to the instrument. Some of these commands do not return any value; however, additional string functions should be added to the code to properly encode the return buffer.
 <a name="3"></a>
 # Upgrades
-This software can be upgraded for other applications. For example, you can enable the tracking of signal or other options of Vector Network Analyzer.
+This software can be upgraded for other applications. For example, you can enable the tracking of signals or other options of Vector Network Analyzer.
